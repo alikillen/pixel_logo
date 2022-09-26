@@ -1,0 +1,12 @@
+.logo-container {
+  width: 25em;
+  height: 25em;
+}
+
+.logo {
+  width: 1em;
+  height: 1em;
+  -webkit-box-shadow: 14em 1em #ac2eb0, 15em 1em #29285b, 16em 1em #d9307f, 16em 2em #d9307f, 16em 3em #d9307f, 16em 4em #d9307f, 17em 1em #b791c8, 18em 1em #57c5b3, 19em 1em black, 20em 1em black;
+          box-shadow: 14em 1em #ac2eb0, 15em 1em #29285b, 16em 1em #d9307f, 16em 2em #d9307f, 16em 3em #d9307f, 16em 4em #d9307f, 17em 1em #b791c8, 18em 1em #57c5b3, 19em 1em black, 20em 1em black;
+}
+/*# sourceMappingURL=logo.css.map */
