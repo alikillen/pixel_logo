@@ -1,12 +1,62 @@
-.logo-container {
-  width: 25em;
-  height: 25em;
+body {
+  border: 5px solid red;
 }
 
-.logo {
+
+.logoContainer {
+  width: 35em;
+  height: 25em;
+  border: 3px solid yellow;
+ 
+}
+
+/* .example {
   width: 1em;
   height: 1em;
-  -webkit-box-shadow: 14em 1em #ac2eb0, 15em 1em #29285b, 16em 1em #d9307f, 16em 2em #d9307f, 16em 3em #d9307f, 16em 4em #d9307f, 17em 1em #b791c8, 18em 1em #57c5b3, 19em 1em black, 20em 1em black;
-          box-shadow: 14em 1em #ac2eb0, 15em 1em #29285b, 16em 1em #d9307f, 16em 2em #d9307f, 16em 3em #d9307f, 16em 4em #d9307f, 17em 1em #b791c8, 18em 1em #57c5b3, 19em 1em black, 20em 1em black;
+  box-shadow: 14em 1em #ac2eb0, 15em 1em #29285b, 16em 1em #d9307f, 16em 2em #d9307f, 16em 3em #d9307f, 16em 4em #d9307f, 17em 1em #b791c8, 18em 1em #57c5b3, 19em 1em black, 20em 1em black;
+} */
+
+  .logoContainer:hover {
+    transform: translateY(-10px);
+    animation-name: example;
+    animation-duration: 10s;
+  }
+
+
+
+
+@keyframes example {
+50% {transform: rotate(180deg);}
 }
-/*# sourceMappingURL=logo.css.map */
+
+.logoBody {
+  border: 5px solid purple;
+  width: 1em;
+  height: 1em;
+
+  box-shadow: 10em 5em #ac2eb0, 10em 6em #ac2eb0, 10em 7em #ac2eb0, 10em 8em #ac2eb0, 10em 9em #ac2eb0, 10em 10em #ac2eb0, 10em 11em #ac2eb0, 10em 12em #ac2eb0,
+
+  15em 5em #ac2eb0, 15em 6em #ac2eb0, 15em 7em #ac2eb0, 15em 8em #ac2eb0, 15em 9em #ac2eb0, 15em 10em #ac2eb0, 15em 11em #ac2eb0, 15em 12em #ac2eb0,
+
+  11em 4em #ac2eb0, 12em 4em #ac2eb0, 13em 4em #ac2eb0, 14em 4em #ac2eb0,
+
+  11em 8em #ac2eb0, 12em 8em #ac2eb0, 13em 8em #ac2eb0, 14em 8em #ac2eb0,
+
+  20em 5em #ac2eb0, 20em 6em #ac2eb0, 20em 7em #ac2eb0, 20em 8em #ac2eb0, 20em 9em #ac2eb0, 20em 10em #ac2eb0, 20em 11em #ac2eb0, 20em 12em #ac2eb0;
+
+}
+
+
+
+.logoShadow {
+  border: 3px dashed blue;
+  width: 1em;
+  height: 1em;
+}
+
+.logoShadowSecondary {
+  border: 3px dashed green;
+  width: 1em;
+  height: 1em;
+}
+
