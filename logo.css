@@ -17,16 +17,21 @@ body {
 } */
 
   .logoContainer:hover {
-    transform: translateY(-10px);
     animation-name: example;
-    animation-duration: 10s;
+    animation-duration: .5s;
   }
 
+    /* .logoShadow:hover {
+    animation-name: example;
+    animation-duration: .5s;
+  } */
 
 
 
 @keyframes example {
-50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+
+  /* logoShadow {{transform: rotate(360deg);} */
 }
 
 .logoBody {
@@ -34,16 +39,19 @@ body {
   width: 1em;
   height: 1em;
 
-  box-shadow: 10em 5em #ac2eb0, 10em 6em #ac2eb0, 10em 7em #ac2eb0, 10em 8em #ac2eb0, 10em 9em #ac2eb0, 10em 10em #ac2eb0, 10em 11em #ac2eb0, 10em 12em #ac2eb0,
+  box-shadow: 10em 5em #ac2eb0, 10em 6em #ac2eb0, 10em 7em #ac2eb0, 10em 8em #ac2eb0, 10em 9em #ac2eb0, 10em 10em #ac2eb0, 10em 11em #ac2eb0, 10em 12em #ac2eb0, 10em 13em #ac2eb0,
 
-  15em 5em #ac2eb0, 15em 6em #ac2eb0, 15em 7em #ac2eb0, 15em 8em #ac2eb0, 15em 9em #ac2eb0, 15em 10em #ac2eb0, 15em 11em #ac2eb0, 15em 12em #ac2eb0,
+  15em 5em #ac2eb0, 15em 6em #ac2eb0, 15em 7em #ac2eb0, 15em 8em #ac2eb0, 15em 9em #ac2eb0, 15em 10em #ac2eb0, 15em 11em #ac2eb0, 15em 12em #ac2eb0, 15em 13em #ac2eb0,
 
   11em 4em #ac2eb0, 12em 4em #ac2eb0, 13em 4em #ac2eb0, 14em 4em #ac2eb0,
 
-  11em 8em #ac2eb0, 12em 8em #ac2eb0, 13em 8em #ac2eb0, 14em 8em #ac2eb0,
+  11em 9em #ac2eb0, 12em 9em #ac2eb0, 13em 9em #ac2eb0, 14em 9em #ac2eb0,
 
-  20em 5em #ac2eb0, 20em 6em #ac2eb0, 20em 7em #ac2eb0, 20em 8em #ac2eb0, 20em 9em #ac2eb0, 20em 10em #ac2eb0, 20em 11em #ac2eb0, 20em 12em #ac2eb0;
+  20em 5em #ac2eb0, 20em 6em #ac2eb0, 20em 7em #ac2eb0, 20em 8em #ac2eb0, 20em 9em #ac2eb0, 20em 10em #ac2eb0, 20em 11em #ac2eb0, 20em 12em #ac2eb0, 20em 13em #ac2eb0, 
 
+  21em 9em #ac2eb0, 22em 8em #ac2eb0, 23em 7em #ac2eb0, 24em 6em #ac2eb0, 25em 5em #ac2eb0,
+
+  22em 10em #ac2eb0, 23em 11em #ac2eb0, 24em 12em #ac2eb0, 25em 13em #ac2eb0;
 }
 
 
@@ -52,6 +60,8 @@ body {
   border: 3px dashed blue;
   width: 1em;
   height: 1em;
+
+  box-shadow: 30em 10em black;
 }
 
 .logoShadowSecondary {
